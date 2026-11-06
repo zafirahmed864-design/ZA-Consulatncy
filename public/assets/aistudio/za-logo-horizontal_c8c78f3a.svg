@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 200" width="1560" height="400" role="img" aria-label="ZA Consultancy logo">
+  <defs>
+    <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="40" y1="56" x2="166" y2="144">
+      <stop offset="0" stop-color="#FFD27A"/>
+      <stop offset="1" stop-color="#E9A21F"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161B26"/>
+      <stop offset="1" stop-color="#0B0E14"/>
+    </linearGradient>
+  <linearGradient id="goldText" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD27A"/><stop offset="1" stop-color="#E9A21F"/></linearGradient></defs>
+  <rect width="780" height="200" rx="40" fill="#0B0E14"/>
+  <g transform="translate(14,0)">
+    <rect x="6" y="6" width="188" height="188" rx="46" fill="url(#bg)"/>
+    <rect x="9" y="9" width="182" height="182" rx="43" fill="none" stroke="url(#gold)" stroke-opacity="0.55" stroke-width="2"/>
+    <g fill="none" stroke="url(#gold)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M42 64 H100 L42 136 H100"/>
+      <path d="M90 136 L127 64 L164 136"/>
+      <path d="M106 112 H148" stroke-width="11"/>
+    </g>
+    <circle cx="127" cy="46" r="6" fill="#FFD27A"/>
+  </g>
+  <text x="238" y="106" font-family="'Bricolage Grotesque','Trebuchet MS','DejaVu Sans',Arial,sans-serif" font-size="50" font-weight="800"><tspan fill="#F2F0EA">ZA&#160;</tspan><tspan fill="url(#goldText)">Consultancy</tspan></text>
+  <text x="238" y="148" font-family="'JetBrains Mono','DejaVu Sans Mono',Menlo,monospace" font-size="19" fill="#9AA3B2" letter-spacing="6">WEB · DIGITAL · SERVICES</text>
+</svg>
